@@ -1,0 +1,31 @@
+uuid: b1c65563-2c9e-42b0-8e1f-f73fe7428c4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.venue.location
+    - taxonomy.vocabulary.venue
+  module:
+    - geolocation
+    - text
+id: taxonomy_term.venue.default
+targetEntityType: taxonomy_term
+bundle: venue
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  location:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+hidden:
+  langcode: true

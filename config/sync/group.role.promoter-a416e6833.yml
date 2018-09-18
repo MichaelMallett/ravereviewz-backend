@@ -1,0 +1,17 @@
+uuid: 0bc658f7-b73f-46a9-b10e-a690821d01b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.promoter
+  enforced:
+    config:
+      - user.role.administrator
+id: promoter-a416e6833
+label: Administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: promoter
+permissions_ui: false
+permissions: {  }

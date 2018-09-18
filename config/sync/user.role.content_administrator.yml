@@ -1,0 +1,15 @@
+uuid: 297f9b99-2f54-4fb2-9c2d-6670c7eae8e5
+langcode: en
+status: true
+dependencies: {  }
+id: content_administrator
+label: 'Content administrator'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access user profiles'
+  - 'administer media'
+  - 'administer media types'
+  - 'administer taxonomy'
+  - 'bypass node access'

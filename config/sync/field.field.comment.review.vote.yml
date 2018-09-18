@@ -1,0 +1,21 @@
+uuid: cce7d7d9-35cd-4dfb-af33-5ec6f13ab5f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.storage.comment.vote
+  module:
+    - options
+id: comment.review.vote
+field_name: vote
+entity_type: comment
+bundle: review
+label: Vote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

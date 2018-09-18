@@ -1,0 +1,17 @@
+uuid: 6bb30e01-161f-45a2-b0a6-8fbd13bc7ed4
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.promoter
+  module:
+    - user
+id: promoter-group_membership
+label: 'Promoter: Group membership'
+description: 'Adds users to groups as members.'
+group_type: promoter
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

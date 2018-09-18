@@ -1,0 +1,10 @@
+uuid: 090540ed-22e8-4f52-b90e-5d3dc928a8ea
+langcode: en
+status: true
+dependencies: {  }
+id: promoter
+label: Promoter
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

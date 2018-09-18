@@ -1,0 +1,20 @@
+uuid: 22556975-9d34-49bc-9073-5d159a074861
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.ticket_price
+field_name: ticket_price
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

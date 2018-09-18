@@ -1,0 +1,14 @@
+uuid: ffe54557-ab1d-4f10-8168-82d607fdd4a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.promoter
+id: promoter-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: promoter
+permissions_ui: true
+permissions: {  }

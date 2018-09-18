@@ -1,0 +1,16 @@
+uuid: c67207df-a05c-45db-bc92-3d412d957f15
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access jsonapi resource list'
+  - 'access openapi api docs'
+  - 'access toolbar'
+  - 'issue subrequests'
+  - 'use jsonrpc services'
+  - 'view media'

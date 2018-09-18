@@ -1,0 +1,8 @@
+uuid: a41d28a2-d7b8-4332-8440-ce91d7af0ada
+langcode: en
+status: true
+dependencies: {  }
+id: review
+label: Review
+target_entity_type_id: node
+description: ''

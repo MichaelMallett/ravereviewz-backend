@@ -1,0 +1,14 @@
+uuid: 328eb1a1-371d-4354-a087-dbd80c0a4efc
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.promoter
+id: promoter-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: promoter
+permissions_ui: true
+permissions: {  }

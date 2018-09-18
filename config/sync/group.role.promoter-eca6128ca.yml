@@ -1,0 +1,17 @@
+uuid: 61e607a3-c05d-41c8-bf58-e7a1a408b3e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.promoter
+  enforced:
+    config:
+      - user.role.content_administrator
+id: promoter-eca6128ca
+label: 'Content administrator'
+weight: 3
+internal: true
+audience: outsider
+group_type: promoter
+permissions_ui: false
+permissions: {  }

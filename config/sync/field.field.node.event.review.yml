@@ -1,0 +1,38 @@
+uuid: 90b246fe-da4d-4e26-8d9d-b243052751ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.review
+    - node.type.event
+  module:
+    - comment
+    - comment_limit
+third_party_settings:
+  comment_limit:
+    user_limit: '1'
+    field_limit: '0'
+id: node.event.review
+field_name: review
+entity_type: node
+bundle: event
+label: Review
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 0
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

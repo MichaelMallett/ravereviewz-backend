@@ -1,0 +1,8 @@
+uuid: 660f717d-cfd5-4c78-993d-9172037f23f5
+langcode: en
+status: true
+dependencies: {  }
+id: html_datetime
+label: 'HTML Datetime'
+locked: true
+pattern: 'Y-m-d\TH:i:sO'

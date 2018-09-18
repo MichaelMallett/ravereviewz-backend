@@ -1,0 +1,21 @@
+uuid: 42be5caa-33bf-43f8-a59b-ad2781e0817c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.location
+    - taxonomy.vocabulary.venue
+  module:
+    - geolocation
+id: taxonomy_term.venue.location
+field_name: location
+entity_type: taxonomy_term
+bundle: venue
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
